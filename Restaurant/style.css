@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transform: 0.2s ease;
+}
+body{
+    background-color: #e84242;
+    height: 200vh;
+}
+.logo{
+    width: 100px;
+}
+
+.header1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 7%;
+    padding: 0 7%;
+    border-radius: 50px;
+    box-shadow: 3px 3px 7px white;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+.navbar a{
+    color:black;
+    font-size: 25px;
+    margin: 0 15px;
+    border-bottom: 2px solid transparent;
+
+}
+.navbar a:hover{
+    border-color: #e84242;
+    padding-bottom: 3px;
+}
+.buttons button{
+    margin:0 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    background-color: white;
+}
+
