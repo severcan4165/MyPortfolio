@@ -44,4 +44,52 @@ body{
     font-size: 25px;
     background-color: white;
 }
+.home h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 20%;
+}
+.home p{
+    color: white;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    width: 60%;
+    margin-top: 40px;
+}
+.home button{
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
 
+}
+.container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.container2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.box img{
+    width:240px;
+    height: 200px;
+}
+.box{
+    margin-right: 40px;
+    text-align: center;
+
+}
+.box h3{
+    font-size: 28px;
+    margin-top: 5px;
+}
+.box p{
+    font-size: 20px;
+}
+.box span{
+    text-decoration: line-through white;
+}
