@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Fira Sans";
+}
+body {
+    background-color: #A6D1E6;
+    background: url(bmı.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    background-color: #5900ff91;
+    width:fit-content;    
+    margin:120px auto;
+    
+    text-align: center;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+span{
+    color:#A6D1E6;
+}
+#input1, #input2{  
+   width: 100px;  
+   margin: 20px; 
+
+}
+input:focus{
+   outline: none;
+}
+#button{    
+    display: block;
+    margin: 0 auto;
+    background-color: #0096FF;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: inherit;
+}
+#sonuc{    
+    width: 140px;
+    height: 20px;
+    margin:20px auto;
+    background-color: #0096FF;
+    border-radius: 10px; 
+    font-size: 14px; 
+    padding-top: 2px; 
+}
+#img{
+    width: 350px;
+    border-radius: 10px;
+}
+#imgcontainer{
+    position: relative;
+}
+#çerçeve{
+    border: 2px solid #5800FF;    
+    width: 51px;
+    height: 144px;
+    position: absolute;
+    top:36px;      
+    visibility: hidden;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 5px 2px 8px gray;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+   /* Chrome, Safari, Edge, Opera */
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+   }
+   
+   /* Firefox */
+   input[type=number] {
+     -moz-appearance: textfield;
+   }
