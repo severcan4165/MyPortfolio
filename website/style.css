@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! ------------ Header Begin ----------------*/
+nav.navbar_top{
+    background-image: linear-gradient(45deg, white, purple);
+    height: 3rem;
+}
+nav.navbar_top img{
+    width: 50px;
+}
+.signin{
+    float: right;
+    color: white;
+    margin-right: 2rem ;
+
+}
+nav.navbar_top .signin a{
+    display: inline-block;
+    margin: 0.5rem 1rem ;
+    color:white;
+    text-decoration: none;
+    height: 2rem;
+    width: 3.5rem;
+    padding-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+nav.navbar_top .signin a:hover{
+    background-color: white;
+    color:blueviolet;
+}
+/* ! ------------ Header End ----------------*/
+
+/** ------------------- NavBar Begin ------------*/
+.navbar_down{
+    background-color: coral;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 3rem;
+    /* position: relative; */
+    position: sticky;
+    top:0;
+
+
+    
+}
+.navbar_down a{
+    display: inline-block;
+    color:rgba(110, 44, 85, 0.897);
+    /* margin-right: 2rem; */
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 1px;
+    width:4rem;
+    text-align: center;
+
+}
+.navbar_down a:hover{
+    background-color:rgba(10, 170, 31, 0.897);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+/** --------dropdown ***/
+#dropdown{
+    display: none;
+    position: absolute;
+    top:45px;
+    left:192px;
+    z-index: 1;
+    
+}
+#bbb button{
+    background-color: coral;
+    height: 3rem;
+    border: none;
+    color:rgba(110, 44, 85, 0.897);
+    font-size: 1.1rem;
+
+}
+#bbb:hover #dropdown  {
+display: block; 
+background-color: blueviolet;
+width: 100px;
+
+}
+.lists li{
+    list-style-type: none;
+}
+.lists li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    width: 100px;
+    text-align: left;
+}
+ 
+/** --------dropdown  end ***/
+
+
+
+/** ------------------- NavBar End ------------*/
+
+/***** ---------- Section p begin--------------*/
+
+section p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+/***** ---------- Section p begin--------------*/
+
+
+/** ------------------- Sticky Logo Begin ------------*/
+
+.fixedlogo{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#image:hover{
+   outline: 7px solid blue;
+    transform: scale(1.2);
+
+}
+
+#image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* outline: 5px solid orangered; */
+}
+
+    
+/** ------------------- Sticky Logo  End------------*/
