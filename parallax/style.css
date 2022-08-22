@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #666;
+  height: 100%;
+  overflow-x: hidden;
+}
+.sect1{
+    background: url(./img/bg.jpg) fixed no-repeat;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+.sect1div1{
+    width:450px ;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 2rem 0 2rem 0;
+    outline: inset 0.5rem purple;
+    outline-offset: 1rem;
+}
+.sect1div1 h1{
+    font-weight: 100;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+}
+.sect2{
+    background: url(./img/bg2.jpg) fixed no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+   
+    justify-content: center;
+}
+.sect2div1{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(200, 200, 200);
+    padding: 3rem; 
+    align-items: center;
+    margin: auto;
+}
+.sect2div1 h2{
+    width: 450px;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+}
+.sect2div1 p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.sect2img{
+    position: relative;
+    top:200px;
+    left:550px;
+    height: 200px;
+    width: 100%;
+}
+.sect2img img{
+    width: 30%;
+    margin: auto;
+}
+.sect3{
+    background: url(./img/bg3.jpg) fixed no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+   
+    justify-content: center;
+
+}
+.sect3div1{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+    color:white;
+    padding: 3rem; 
+    align-items: center;
+    margin: auto;
+}
+.sect3div1 h2{
+    width: 550px;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+}
+.sect3div1 p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.sect3div2{
+    width:650px ;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    top:150px;
+    color: #fff;
+    background-color: black;
+    padding-top: 3rem;
+    border-radius: 2rem 0 2rem 0;
+    outline: inset 0.5rem purple;
+    outline-offset: 1rem;
+}
+.sect3div2 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+.sect4{
+    background: url(./img/bg4.jpg) fixed no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.sect4div1{
+    width: 100%;
+    height: 250px;
+    background-color:rgb(160, 160, 160);
+    padding: 3rem; 
+    align-items: center;
+    margin: auto;
+}
+.sect4div1 h2{
+    width: 550px;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+}
+.sect4div1 p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.sect4div2{
+    display: flex;
+}
+.sect4divmain1{
+    width: 20%;
+    height: 60vh;
+}
+.sect4divmain1 h2{
+    color: #fff;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 2rem 0 2rem 0;
+    outline: inset 0.5rem purple;
+    outline-offset: 1rem;
+    position: relative;
+    top:15vh;
+}
+.sect4divmain2{
+    width: 60%;
+    height: 60vh;
+    background-color:rgb(60, 60, 60);
+    color: white;
+    font-weight: 200;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+.sect4divmain3{
+    width: 20%;
+    height: 60vh;
+   margin: auto;
+}
+.sect4divmain3 h2{
+    color: #fff;
+    background-color: black;
+    padding: 2rem 0;
+    border-radius: 2rem 0 2rem 0;
+    outline: inset 0.5rem purple;
+    outline-offset: 1rem;
+    position: relative;
+    top:35vh;
+    font-size: 1rem;
+    margin: 0;
+}
