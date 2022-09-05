@@ -1,0 +1,38 @@
+.about-bgImg-container{
+    @include bgImage(50vh, $main-bgImage-path);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+    .about__bio-image{
+        padding-bottom: 2rem;
+        h2{
+            padding:2rem ;
+            font-size: 3rem;
+            color: $secondary-color;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+}
+
+.about{
+
+    &__container{
+    width: 70vw;
+    margin: 2rem auto;
+    }
+
+    &__job{
+        background-color: lighten($primary-color,10%);
+        margin: 1rem;
+        padding: 1rem;
+        border-bottom: 5px solid $secondary-color;
+    }
+    h2, h3, h6{
+        padding-bottom: 0.5rem;
+    }
+}

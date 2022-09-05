@@ -1,3 +1,135 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.link-style a, .horizontal a {
+  padding: 0.4rem;
+  transition: all 1s;
+}
+.link-style a:hover, .horizontal a:hover {
+  color: #ff652f;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 10vh;
+  padding: 1rem;
+}
+
+.nav {
+  height: 10vh;
+  padding: 1rem;
+}
+.nav__list {
+  list-style-type: none;
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 500;
+  transition: all 0.8s;
+}
+.nav__link--active {
+  color: #ff652f;
+}
+.nav__link:hover {
+  color: blue;
+}
+
+.about-bgImg-container {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.about-bgImg-container .about__bio-image {
+  padding-bottom: 2rem;
+}
+.about-bgImg-container .about__bio-image h2 {
+  padding: 2rem;
+  font-size: 3rem;
+  color: #ff652f;
+}
+.about-bgImg-container .about__bio-image p {
+  font-size: 1.2rem;
+}
+
+.about__container {
+  width: 70vw;
+  margin: 2rem auto;
+}
+.about__job {
+  background-color: #414141;
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 5px solid #ff652f;
+}
+.about h2, .about h3, .about h6 {
+  padding-bottom: 0.5rem;
+}
+
+.home-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home h1, .home h2 {
+  font-weight: 400;
+}
+.home__name {
+  font-weight: 400;
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid white;
+}
+.home__name--last {
+  color: red;
+  font-weight: 700;
+}
+
+body {
+  color: #eee;
+  background-color: #272727;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=style.css.map */
