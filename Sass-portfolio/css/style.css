@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-.link-style a, .horizontal a {
+.link-style a, footer.middle a, .vertical .social-icons a, .horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, .horizontal a:hover {
+.link-style a:hover, footer.middle a:hover, .vertical .social-icons a:hover, .horizontal a:hover {
   color: #ff652f;
 }
 
@@ -27,6 +27,29 @@
   align-items: flex-end;
   padding: 2rem;
   margin-bottom: 1rem;
+}
+.vertical .social-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+}
+.vertical .copyright {
+  position: fixed;
+  bottom: 1rem;
+  right: 3rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .nav {
@@ -59,7 +82,7 @@
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -93,10 +116,43 @@
   padding-bottom: 0.5rem;
 }
 
+.contact-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.contact {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contact__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+.contact__item {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.contact__item .text-secondary {
+  color: #ff652f;
+}
+.contact h2 {
+  font-size: 3rem;
+}
+
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -121,6 +177,54 @@
 .home__name--last {
   color: red;
   font-weight: 700;
+}
+
+.project-bgImg-container {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-bgImg-container .projects__bio-image {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.projects__items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 5rem;
+  gap: 1rem 0;
+}
+.projects__item {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 5px solid #ff652f;
+  position: relative;
+  width: 33%;
+}
+.projects__item img {
+  width: 100%;
+}
+.projects__item::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #ff652f;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 0.6s;
+}
+.projects__item:hover::after {
+  opacity: 0.7;
 }
 
 body {
