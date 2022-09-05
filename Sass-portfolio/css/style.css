@@ -21,6 +21,14 @@
   padding: 1rem;
 }
 
+.vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
 .nav {
   height: 10vh;
   padding: 1rem;

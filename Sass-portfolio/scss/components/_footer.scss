@@ -18,7 +18,13 @@
     padding: 1rem;
     @extend .link-style;   
 }
-
+.vertical{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
 
 
 
